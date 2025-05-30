@@ -44868,7 +44868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main_board_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
+		(property "Footprint" "protoboard_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
 			(at 25.4 177.8 0)
 			(effects
 				(font
@@ -45149,7 +45149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main_board_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
+		(property "Footprint" "protoboard_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
 			(at 25.4 189.23 0)
 			(effects
 				(font

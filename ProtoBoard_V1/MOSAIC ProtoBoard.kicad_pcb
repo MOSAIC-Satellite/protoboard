@@ -5220,6 +5220,91 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "protoboard_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
+		(layer "F.Cu")
+		(uuid "49052ea4-1689-467c-8981-52c21fec5a8e")
+		(at 123.1 -19.3)
+		(property "Reference" "H10"
+			(at 0 -4.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a4cf85b9-d3f2-4137-892f-33c76586a817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5559674a-027f-4845-8bdd-5dcdc2ba5e04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10526d9e-7285-4a72-be69-7968d82aed4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1c89f67-f9f5-42cc-80bb-095de7b129fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/ac5ab379-b87f-4bd7-a028-806d6ec6c91d")
+		(sheetname "/")
+		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4cfbda96-9c1c-444b-a31e-1774f792fdbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 10.16 6.400013)
+			(drill oval 6.400013 3.199994)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "139d3082-6458-4e06-9d6c-d67db862ec8e")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "protoboard_footprints_V1.0:SL_Logo"
 		(layer "F.Cu")
 		(uuid "4def93f0-7351-4237-bca0-83d610d8fbe2")
@@ -8868,6 +8953,91 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "2cb6178f-ae4b-4469-87ea-2e5b92702954")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "protoboard_footprints_V1.0:MountingHole_3.2mm_Pad_Oval"
+		(layer "F.Cu")
+		(uuid "6a3859bd-2a64-4c2e-991a-4ef236328205")
+		(at 123.1 -26.700014)
+		(property "Reference" "H9"
+			(at 0 -4.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8e7409d8-23a4-4e85-ad3f-1c2403456fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4b69f4e1-0528-4ae8-8d95-093cd1ee8809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "924ff401-cada-4f61-b312-97645e3e1bf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6258fd2-5525-4bc7-bfb9-80219cc8826e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/8871d981-c15e-45de-92d4-a3a5c3efd6ad")
+		(sheetname "/")
+		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "53925efc-1666-4779-b742-d704a9c1f1b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 10.16 6.400013)
+			(drill oval 6.400013 3.199994)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "3e085bcd-9c64-4b19-b84a-c1cae1aae1ba")
 		)
 		(embedded_fonts no)
 	)
