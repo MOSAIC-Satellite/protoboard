@@ -141,6 +141,7 @@
 			)
 		)
 		(path "/c634ae06-6b4c-432c-978f-efeb5f12fa43")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1127,6 +1128,7 @@
 			)
 		)
 		(path "/3c0e9cd5-7c06-4056-b514-b54c45129150")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1372,6 +1374,7 @@
 			)
 		)
 		(path "/74124e13-1908-47ae-8099-fac343cb75bd")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2346,6 +2349,7 @@
 			)
 		)
 		(path "/299348f0-adf9-4ec0-a9ed-dc916ec86db0")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3320,6 +3324,7 @@
 			)
 		)
 		(path "/0bfcc170-141a-4a1b-b4ff-161e0b6008bb")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4294,6 +4299,7 @@
 			)
 		)
 		(path "/8678ec8c-5c4b-47d3-b720-1db1ba89c248")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8865,6 +8871,111 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "71de5c08-2242-4e46-b984-9120ad37434f")
+		(at 91.1 -20.6)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H8"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "5eebe7f3-a478-4cd2-add1-f13214222ab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "737db0b6-f6da-482b-b26a-4422af1ab7d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d34c0b65-ea85-44a7-b926-e4f9a4076181")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd146dff-26f1-46e5-9826-b84abd829272")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/39c61dba-89ab-47f8-a87c-a86501948cfb")
+		(sheetname "/")
+		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "99c6de1c-9b9e-40d1-adc3-f1d5b41cddf7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8320296b-a864-4589-b998-93dd59def075")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ee113594-cc73-45cb-8379-c6c77ecd6212")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "b1e6139c-6a0f-40ba-b4d1-e8df8b90f310")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MOSAIC_ProtoBoard:QWIIC_2_Adapter"
 		(layer "F.Cu")
 		(uuid "94883c8c-8104-4a17-84c9-c4afa5e40fea")
@@ -8931,6 +9042,7 @@
 			)
 		)
 		(path "/93960004-cc77-4e69-a7d9-9579b793099b")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9122,6 +9234,111 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "bd2d7f38-c92d-486d-9ba4-5b1ac034959d")
+		(at 91.1 -28.55)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H7"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "9c73c595-80ed-4897-bdd2-6b9521daf207")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "59852f48-b5e4-4c49-b9ab-0fc050c6de7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21a633cb-8cc8-4ce2-b3ed-c4f794d9cdf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1584105a-4762-436b-baa5-7d5853a52c48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/8628a6bd-fa65-4007-889c-f7d8f0bc5aab")
+		(sheetname "/")
+		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "886d3604-bbd9-4764-bcb0-088ed750b3af")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7169d8c3-5ae6-4d72-b029-affadf60672e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "41daa65a-84f6-4228-9a25-264827073e6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "d40c551a-9ddf-4624-a64c-6a282121c247")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MOSAIC_ProtoBoard:QWIIC_Sensor_CONN"
 		(layer "F.Cu")
 		(uuid "d5e7603f-23da-4df8-a075-f246f18dbb6c")
@@ -9176,6 +9393,7 @@
 			)
 		)
 		(path "/19ab8ed4-fd08-4841-82bf-829fa0083213")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10162,6 +10380,7 @@
 			)
 		)
 		(path "/4278a386-c2ac-4156-b677-ccf202a3fb37")
+		(sheetname "/")
 		(sheetfile "MOSAIC ProtoBoard.kicad_sch")
 		(attr smd)
 		(fp_line
