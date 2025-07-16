@@ -2,7 +2,7 @@
 
 This is the repository for MOSAIC's ProtoBoard.
 
-For detailed documentation on the ProtoBoard, check out its core documentation [here](https://www.mosaicsat.org/core_documentation/hardware/protoboard/).
+For detailed information on the ProtoBoard, check out its core documentation [here](https://www.mosaicsat.org/core_documentation/hardware/protoboard/).
 
 To get your own MOSAIC ProtoBoard, visit the MOSAIC fabrication guide [here](https://www.mosaicsat.org/getting_mosaic/).
 
